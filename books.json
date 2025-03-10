@@ -7,6 +7,9 @@
     "country": "USA",
     "publisher": "Publisher 1",
     "designer": "Designer 1",
+    "height": 80,
+    "width": 180,
+    "color": "#6b4f4f",
     "coverImage": "covers/cover1.jpg",
     "relatedCovers": [
       {
@@ -37,6 +40,9 @@
     "country": "UK",
     "publisher": "Publisher 2",
     "designer": "Designer 2",
+    "height": 50,
+    "width": 120,
+    "color": "#4f6b6b",
     "coverImage": "covers/cover2.jpg"
   },
   {
@@ -47,6 +53,9 @@
     "country": "Germany",
     "publisher": "Publisher 3",
     "designer": "Designer 3",
+    "height": 80,
+    "width": 150,
+    "color": "blue",
     "coverImage": "covers/cover3.jpg"
   },
   {
@@ -57,6 +66,9 @@
     "country": "France",
     "publisher": "New Publisher",
     "designer": "New Designer",
+    "height": 50,
+    "width": 200,
+    "color": "red",
     "coverImage": "covers/new-book-cover.jpg"
   }
 ]
