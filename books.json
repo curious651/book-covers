@@ -1,0 +1,62 @@
+[
+  {
+    "id": "book1",
+    "title": "Book Title 1",
+    "author": "Author 1",
+    "year": 2001,
+    "country": "USA",
+    "publisher": "Publisher 1",
+    "designer": "Designer 1",
+    "coverImage": "covers/cover1.jpg",
+    "relatedCovers": [
+      {
+        "image": "covers/cover1-alt1.jpg",
+        "year": 2002,
+        "country": "France",
+        "designer": "Designer A"
+      },
+      {
+        "image": "covers/cover1-alt2.jpg",
+        "year": 2003,
+        "country": "Japan",
+        "designer": "Designer 1"
+      },
+      {
+        "image": "covers/cover1-alt3.jpg",
+        "year": 2004,
+        "country": "France",
+        "designer": "Designer C"
+      }
+    ]
+  },
+  {
+    "id": "book2",
+    "title": "Book Title 2",
+    "author": "Author 2",
+    "year": 2015,
+    "country": "UK",
+    "publisher": "Publisher 2",
+    "designer": "Designer 2",
+    "coverImage": "covers/cover2.jpg"
+  },
+  {
+    "id": "book3",
+    "title": "Book Title 3",
+    "author": "Author 3",
+    "year": 1999,
+    "country": "Germany",
+    "publisher": "Publisher 3",
+    "designer": "Designer 3",
+    "coverImage": "covers/cover3.jpg"
+  },
+  {
+    "id": "book4",
+    "title": "New Book Title",
+    "author": "New Author",
+    "year": 2025,
+    "country": "France",
+    "publisher": "New Publisher",
+    "designer": "New Designer",
+    "coverImage": "covers/new-book-cover.jpg"
+  }
+]

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sorting Controls -->
+    <div class="sorting-controls">
+      <label for="sortBy">Sort by: </label>
+      <select id="sortBy">
+        <option value="year">Year of Publication</option>
+        <option value="designer">Designer</option>
+        <option value="country">Country</option>
+      </select>
+    </div>
+
+    <h1 id="bookTitle">Book Details</h1>
+
+    <div id="bookDetails">
+      <!-- Book details and sorting will be rendered here by script.js -->
+    </div>
+
+    <div id="bookCoversGallery" class="book-covers-gallery"></div>
+
+    <script src="book.js"></script>
+  </body>
+</html>
