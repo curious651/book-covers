@@ -2,17 +2,27 @@ fetch("books.json")
   .then((response) => response.json())
   .then((books) => {
     const bookList = document.getElementById("bookList");
+    bookList.classList.add("book-stack");
 
     books.forEach((book) => {
+      const bookSpine = document.createElement("div");
+      bookSpine.classList.add("book-spine");
+
+      // Create a clickable title
       const bookLink = document.createElement("a");
-      bookLink.href = `book.html?id=${book.id}`; // Link to the book's detail page
+      bookLink.href = `book.html?id=${book.id}`;
       bookLink.textContent = book.title;
+      bookLink.style.textDecoration = "none";
+      bookLink.style.color = "inherit";
 
-      const bookItem = document.createElement("div");
-      bookItem.classList.add("book-item");
-      bookItem.appendChild(bookLink);
+      bookSpine.appendChild(bookLink);
 
-      bookList.appendChild(bookItem);
+      // Apply dimensions and color from JSON
+      bookSpine.style.height = `${book.height}px`;
+      bookSpine.style.width = `${book.width}px`;
+      bookSpine.style.backgroundColor = book.color;
+
+      bookList.appendChild(bookSpine);
     });
   })
   .catch((error) => {
